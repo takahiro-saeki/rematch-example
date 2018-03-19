@@ -1,0 +1,38 @@
+{
+  "name": "rematch-example",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "https://github.com/takahiro-saeki/rematch-example.git",
+  "author": "takahiro-saeki",
+  "license": "MIT",
+  "dependencies": {
+    "@rematch/core": "^0.5.2",
+    "babel-polyfill": "^6.26.0",
+    "fetch-jsonp": "^1.1.3",
+    "isomorphic-fetch": "^2.2.1",
+    "lodash": "^4.17.5",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-redux": "^5.0.7",
+    "redux": "^3.7.2",
+    "styled-components": "^3.2.1",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-plugin-module-resolver": "^3.1.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-decorators-legacy": "^1.3.4",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-plugin-transform-function-bind": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-regenerator": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1"
+  },
+  "scripts": {
+    "start": "parcel src/index.html"
+  }
+}

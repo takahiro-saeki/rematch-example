@@ -1,0 +1,43 @@
+{
+  "presets": [
+    "react",
+    ["env", {
+      "useBuiltIns": true,
+      "targets": {
+        "browsers": [
+          "Chrome >= 60",
+          "FireFox >= 44",
+          "Safari >= 8",
+          "Explorer 11",
+          "last 2 Edge versions"
+        ]
+      },
+      "modules": false,
+      "loose": true,
+    }]
+  ],
+  "plugins": [
+    ["transform-runtime", {
+      "helpers": false,
+      "polyfill": false,
+      "regenerator": true,
+      "moduleName": "babel-runtime"
+    }],
+    "transform-regenerator",
+    "transform-decorators-legacy",
+    "transform-function-bind",
+    "transform-class-properties",
+    "transform-es2015-modules-commonjs",
+    "transform-object-rest-spread", [
+      "module-resolver", {
+        "root": ["./src/js"],
+        "alias": {
+          "@pc": "./src/js/pc/containers",
+          "@sp": "./src/js/sp/containers",
+          "@shelfConfig": "./src/js/common/utils/shelfConfig",
+          "@shelfUtils": "./src/js/common/utils/shelfUtils"
+        }
+      }
+    ]
+  ]
+}
