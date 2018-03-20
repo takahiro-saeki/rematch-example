@@ -2,9 +2,9 @@ import { init } from '@rematch/core';
 import todo from './todo';
 
 const store = init({
-  models: {
-    todo
-  }
-})
+    models: {
+        todo
+    }
+});
 
 export default store;

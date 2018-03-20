@@ -1,7 +1,8 @@
 import React from 'react';
+import { Container } from './style';
 
 const Header = ({title}) => (
-  <header>{title}</header>
-)
+    <Container>{title}</Container>
+);
 
-export default Header
+export default Header;
