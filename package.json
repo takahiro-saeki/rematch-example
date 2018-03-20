@@ -36,6 +36,7 @@
   },
   "scripts": {
     "start": "parcel src/index.html",
-    "lint": "eslint src/* --ext .jsx --ext .js --fix --quiet --cache"
+    "lint": "eslint src/* --ext .jsx --ext .js --fix --quiet --cache",
+    "server": "json-server ./mock/mock.json"
   }
 }
